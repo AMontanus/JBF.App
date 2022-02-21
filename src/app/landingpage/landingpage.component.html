@@ -26,30 +26,63 @@
 </mat-grid-list> -->
 
 <div class="landing-container d-flex flex-column">
-    <div class="d-flex align-center justify-center">
-        <div class="p-5">
-            <h1 class="align-center">Jbf bank og forsikring</h1>
-            <p>Enten du skal forsikre bilen, huset, deg selv eller dine aller nærmeste, tilbyr vi gode vilkår og dekninger. Gå en trygg vinter i møte med gode forsikringer! </p>
+    <!-- Banner-ish content -->
+    <div class="lp-banner d-flex">
+        <div class="lp-header-txt flex-column">
+            <p style="font-size:30px;">Jbf bank og forsikring</p>
+            <p style="font-size:16px;">Enten du skal forsikre bilen, huset, deg selv eller dine aller nærmeste, tilbyr vi gode vilkår og dekninger. Gå en trygg vinter i møte med gode forsikringer! </p>
+            <mat-icon style="font-size:36px;">arrow_forward</mat-icon>
         </div>
-        <div class="p-0">
-            <img src="./assets/jbf_snowgirl.webp" class="mat-landingpage-img" />
-        </div>
-    </div>
-    <div class="d-flex justify-space-between">
-        <div class="p2">
-            <button mat-fab></button>
-        </div>
-        <div class="p2">
-            <button mat-fab></button>
-        </div>
-        <div class="p2">
-            <button mat-fab></button>
-        </div>
-        <div class="p2">
-            <button mat-fab></button>
-        </div>
-        <div class="p2">
-            <button mat-fab></button>
+        <div>
+            <img src="./assets/jbf_snowgirl.webp" class="lp-img" />
         </div>
     </div>
+
+    <!-- FABs -->
+    <div class="lp-fab-grp-container">
+        <div></div> 
+        <div class="d-flex-column lp-fab-container">
+            <button mat-fab class="lp-fab"><mat-icon>credit_card</mat-icon></button>
+            <h2 class="lp-fab-text">Dagligbank</h2>
+        </div>
+        <div class="d-flex-column lp-fab-container">
+            <button mat-fab class="lp-fab"><mat-icon>umbrella</mat-icon></button>
+            <h2 class="lp-fab-text">Forsikre</h2>
+        </div>
+        <div class="d-flex-column lp-fab-container">
+            <button mat-fab class="lp-fab"><mat-icon>local_atm</mat-icon></button>
+            <h2 class="lp-fab-text">Låne</h2>
+        </div>
+        <div class="d-flex-column lp-fab-container">
+            <button mat-fab class="lp-fab"><mat-icon>trending_up</mat-icon></button>
+            <h2 class="lp-fab-text">Spare</h2>
+        </div>
+        <div class="d-flex-column lp-fab-container">
+            <button mat-fab class="lp-fab"><mat-icon>healing</mat-icon></button>
+            <h2 class="lp-fab-text">Meld skade</h2>
+        </div>
+        <div></div>
+    </div>
+
+    <!-- Action buttons -->
+    <div class="lp-action-btn-container">
+        <button mat-raised-button class="lp-action-btn">
+            <mat-icon>help</mat-icon>
+            Ofte stilte spørsmål
+            <mat-icon>arrow_forward</mat-icon>
+        </button>
+        <button mat-raised-button class="lp-action-btn">
+            <mat-icon>call</mat-icon>
+            Kontakt oss
+            <mat-icon>arrow_forward</mat-icon>
+        </button>
+    </div>
+
+    <!-- News section -->
+
+    <!-- Ad banner -->
+
+    <!-- Press release -->
 </div>
+
+<!-- Footer -->
