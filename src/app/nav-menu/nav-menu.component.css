@@ -1,4 +1,5 @@
 .mat-toolbar {
+  height: 90px;
   background: inherit;
 }
 
@@ -8,8 +9,20 @@
   z-index: 1;
 }
 
+.toolbar-button-group {
+  display: flexbox;
+  align-items: center;
+  justify-content: space-between;
+}
+
 .toolbar-button {
-  border-radius: 20%;
+  width: 120px;
+  border: 2px solid;
+  display: inline-block;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 20px;
+  border-color: #ECE5E0;
 }
 
 .toolbar-spacer {
@@ -17,6 +30,7 @@
 }
 
 .toolbar-content {
+  background: white;
   flex: 1 1 auto;
   justify-content: center;
   align-items: center;

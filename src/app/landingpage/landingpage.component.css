@@ -8,20 +8,6 @@
     justify-items:center;
 }
 
-mat-grid-list {
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: none;
-    margin-bottom: none;
-    width: 1200px;
-    padding-bottom: 0px;
-    padding-top: 0px;
-}
-
-mat-grid-tile {
-    background: lightblue;
-}
-
 .lp-header-txt {
     display: flex;
     margin: 4px;
@@ -53,7 +39,12 @@ mat-grid-tile {
     border-style: solid;
 }
 
+.lp-fab:hover {
+    background-color: #ECE5E0;
+}
+
 .lp-fab-text {
+    padding-top: 6px;
     color: #00383D; 
     text-align: center;
 }
@@ -73,8 +64,60 @@ mat-grid-tile {
 }
 
 .lp-action-btn {
-    display: flexbox;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
     padding: 4px;
-    height: 50px;
+    height: 55px;
     width: 250px;
+    font-size: 18px;
+}
+
+.lp-action-btn:hover {
+    background-color: #F7F6F6;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.lp-news-container {
+    display: flexbox;
+    padding: 70px;
+    margin: 30px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.lp-news-card {
+    min-height: 350px;
+    height: 350px;
+    width: 310px;
+    background: white;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.lp-news-card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.lp-news-card-content {
+    display: flexbox;
+    padding: 0px 16px;
+}
+
+.lp-card-text-header {
+    padding-top: 20px;
+    font-size: 22px;
+}
+
+.lp-card-text {
+    white-space: nowrap;
+    text-overflow: hidden;
+    overflow: hidden;
+}
+
+.lp-card-footer {
+    bottom: 0;
+    align-self: flex-end;
+    justify-content: center;
+    text-align: center;
+    font-size: 26px;
 }
