@@ -1,36 +1,10 @@
-<!-- <mat-grid-list cols="1" rowHeight="2:0.75">
-    <mat-grid-tile>
-        <mat-grid-list cols="2">
-            <mat-grid-tile class="d-flex flex-column">
-                <h1 class="p-2">
-                    Jbf bank og forsikring
-                </h1>
-                <p class="p-2">
-                    Enten du skal forsikre bilen, husket, deg selv eller dine aller nærmeste,
-                    tilbyr vi gode vilkår og dekninger. Gå en trygg vinter i møte med gode forsikringer!
-                </p>
-
-            </mat-grid-tile>
-            <mat-grid-tile class="pa-0">
-                <img src="./assets/jbf_snowgirl.webp" class="mat-landingpage-img" />
-            </mat-grid-tile>
-        </mat-grid-list>
-    </mat-grid-tile>
-    <mat-grid-tile>
-        2
-    </mat-grid-tile>
-    <mat-grid-tile>
-        3
-    </mat-grid-tile>
-
-</mat-grid-list> -->
-
 <div class="landing-container d-flex flex-column">
     <!-- Banner-ish content -->
-    <div class="lp-banner d-flex">
+    <div class="lp-banner d-flex flex-row">
         <div class="lp-header-txt flex-column">
             <p style="font-size:30px;">Jbf bank og forsikring</p>
-            <p style="font-size:16px;">Enten du skal forsikre bilen, huset, deg selv eller dine aller nærmeste, tilbyr vi gode vilkår og dekninger. Gå en trygg vinter i møte med gode forsikringer! </p>
+            <p style="font-size:16px;">Enten du skal forsikre bilen, huset, deg selv eller dine aller nærmeste, tilbyr
+                vi gode vilkår og dekninger. Gå en trygg vinter i møte med gode forsikringer! </p>
             <mat-icon style="font-size:36px;">arrow_forward</mat-icon>
         </div>
         <div>
@@ -40,25 +14,35 @@
 
     <!-- FABs -->
     <div class="lp-fab-grp-container">
-        <div></div> 
-        <div class="d-flex-column lp-fab-container">
-            <button mat-fab class="lp-fab"><mat-icon>credit_card</mat-icon></button>
+        <div></div>
+        <div class="d-flex flex-column lp-fab-container">
+            <button mat-fab class="lp-fab">
+                <mat-icon>credit_card</mat-icon>
+            </button>
             <h2 class="lp-fab-text">Dagligbank</h2>
         </div>
         <div class="d-flex-column lp-fab-container">
-            <button mat-fab class="lp-fab"><mat-icon>umbrella</mat-icon></button>
+            <button mat-fab class="lp-fab">
+                <mat-icon>umbrella</mat-icon>
+            </button>
             <h2 class="lp-fab-text">Forsikre</h2>
         </div>
         <div class="d-flex-column lp-fab-container">
-            <button mat-fab class="lp-fab"><mat-icon>local_atm</mat-icon></button>
+            <button mat-fab class="lp-fab">
+                <mat-icon>local_atm</mat-icon>
+            </button>
             <h2 class="lp-fab-text">Låne</h2>
         </div>
         <div class="d-flex-column lp-fab-container">
-            <button mat-fab class="lp-fab"><mat-icon>trending_up</mat-icon></button>
+            <button mat-fab class="lp-fab">
+                <mat-icon>trending_up</mat-icon>
+            </button>
             <h2 class="lp-fab-text">Spare</h2>
         </div>
         <div class="d-flex-column lp-fab-container">
-            <button mat-fab class="lp-fab"><mat-icon>healing</mat-icon></button>
+            <button mat-fab class="lp-fab">
+                <mat-icon>healing</mat-icon>
+            </button>
             <h2 class="lp-fab-text">Meld skade</h2>
         </div>
         <div></div>
@@ -81,19 +65,23 @@
     <!-- News section -->
     <div class="lp-news-container d-flex">
         <div class="lp-news-card flex-column">
-            <img src="./assets/jbf_corona.webp" class="lp-img" />
+            <img src="./assets/jbf_corona.webp" class="lp-news-card-img" />
             <div class="lp-news-card-content">
-                    <h4 class="lp-card-text-header">
-                        Koronasituasjonen
-                    </h4>
-                    <p class="lp-card-text">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                    </p>
+                <h4 class="lp-card-text-header">
+                    Koronasituasjonen
+                </h4>
+                <p class="lp-card-text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+                    culpa qui officia deserunt mollit anim id est laborum.
+                </p>
             </div>
 
         </div>
         <div class="lp-news-card flex-column">
-            <img src="./assets/jbf_meeting.webp" class="lp-img" />
+            <img src="./assets/jbf_meeting.webp" class="lp-news-card-img" />
             <div class="lp-news-card-content">
                 <h4 class="lp-card-text-header">
                     Kundevalgmøte 2022
@@ -102,7 +90,7 @@
 
         </div>
         <div class="lp-news-card flex-column">
-            <img src="./assets/jbf_vacaycay.webp" class="lp-img" />
+            <img src="./assets/jbf_vacaycay.webp" class="lp-news-card-img" />
             <div class="lp-news-card-content">
                 <h4 class="lp-card-text-header">
                     Lyst på utenlandstur?
@@ -118,8 +106,74 @@
     </div>
 
     <!-- Ad banner -->
+    <div class="lp-interlude-banner">
+        <div class="lp-interlude-banner-container">
+            <div class="lp-interlude-banner-card">
+                <h3 style="font-size: 20px;">
+                    Rydd opp med banken som du kjenner best!
+                </h3>
+                <p style="font-size: 16px;">
+                    Samle kredittgjeld og forbrukslån i et Eika Smålån
+                </p>
+                <div style="text-align: center;">
+                    <mat-icon style="font-size: 24px;">arrow_forward</mat-icon>
+                </div>
+            </div>
+        </div>
+    </div>
 
-    <!-- Press release -->
+    <!-- Promoted news? -->
+
+    <div class="lp-promoted-news-card d-flex flex-row">
+        <img src="./assets/jbf_thx.webp" class="lp-promoted-news-img">
+        <div class="lp-promoted-news-cardtext">
+            <h3 style="font-size:20px;">Vi har Norges mest fornøyde kunder!</h3>
+            <br />
+            <p style="font-size:16px;">Vi er så stolte at vi sprekker!</p>
+            <p style="font-size:16px;">For femte år på rad kan vi skilte med å ha Norges mest fornøyde kunder uavhengig av bransje. Les mer om kåringen her.</p>
+            <mat-icon style="font-size: 24px;">arrow_forward</mat-icon>
+        </div>
+    </div>
 </div>
 
 <!-- Footer -->
+
+<footer class="lp-footer d-flex flex-column">
+    <div class="lp-footer-part d-flex flex-row">
+        <div class="lp-footer-section">
+            <u style="font-size:24px;">Priser</u>
+            <br />
+            <br />
+            <p>Du kan sammenlikne våre priser med priser fra andre selskaper på Finansportalen.</p>
+        </div>
+        <div class="lp-footer-section">
+            <u style="font-size:24px;">Kontakt</u>
+            <br />
+            <br />
+            <p>Telefonnummer: 21 62 26 00</p>
+        </div>
+        <div class="lp-footer-section">
+            <u style="font-size: 24px;">Om oss</u>
+            <br />
+            <br />
+            <p>Org.nr: 982 719 445 (Jernbanepersonalets sparebank) og Org.nr: 940 590 698 (Jernbanepersonalets forsikring gjensidig), SWIFT: JERNNO21XXX (eller DNBANOKKXXX ved betaling i annen valuta enn Euro)
+    
+                Vi er tilknyttet agent av Eika Kapitalforvaltning, samarbeidspartner med Aktiv Eiendomsmegling </p>
+        </div>
+    </div>
+    <div class="flex-row" style="margin-bottom: 10px;">
+        <u>     Personvern og informasjonskapsler | Sikkerhet og antihvitvask | English </u>
+    </div>
+
+</footer>
+<footer class="lp-footer-secondary">
+    <div class="lp-footer-secondary-container d-flex flex-row">
+        <div style="margin-right: 200px;">
+            <p style="color:white;">2022 © Jbf bank og forsikring</p>
+        </div>
+        <div style="margin-left: 200px;">
+            <p style="color: white;"> Banken vår er en alliansebank i Eika</p>
+        </div>
+    </div>
+
+</footer>

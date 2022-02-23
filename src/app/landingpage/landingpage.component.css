@@ -2,14 +2,22 @@
     margin-left: auto;
     margin-right: auto;
     padding: 0px;
-    width: fit-content;
-    max-width: 1200px;
+    width: 100%;
     color: #00383D;
     justify-items:center;
+    align-items: center;
+}
+
+/* Banner */
+.lp-banner {
+    width: 1200px;
+    align-items: center;
+    justify-content: center;
 }
 
 .lp-header-txt {
     display: flex;
+    width: 600px;
     margin: 4px;
     padding: 20px;
     justify-content: center;
@@ -18,22 +26,28 @@
 }
 
 .lp-img {
-    width: auto;
+    width: 600px;
     height: auto;
-    object-fit: fill;
+    object-fit: cover;
 }
+/* Banner */
 
+/* Fab group */
 .lp-fab-grp-container {
     display: flex;
-    justify-content: space-around;
+    width: 100%;
+    height: 200px;
+    margin-bottom: 30px;
+    justify-content: center;
     align-items: center;
     color: white;
     border-color: #ECE5E0;
     background-color: white;
-    padding: 30px;
 }
 
 .lp-fab {
+    margin-left: 50px;
+    margin-right: 50px;
     background-color: white;
     border-color: #ECE5E0;
     border-style: solid;
@@ -52,18 +66,21 @@
 .lp-fab-container {
     text-align: center;
 }
+/* Fab group */
 
+/* Action buttons */
 .lp-action-btn-container {
     display: flex;
-    margin: 4px;
-    padding-top: 60px;
-    padding-right: 27%;
-    padding-left: 27%;
-    justify-content: space-around;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 100%;
+    justify-content: center;
     align-items: center;
 }
 
 .lp-action-btn {
+    margin-left: 8px;
+    margin-right: 8px;
     justify-content: space-around;
     align-items: center;
     display: flex;
@@ -77,17 +94,21 @@
     background-color: #F7F6F6;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
+/* Action buttons */
 
+/* News cards */
 .lp-news-container {
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
     display: flexbox;
-    padding: 70px;
-    margin: 30px;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
 }
 
 .lp-news-card {
-    min-height: 350px;
+    margin-left: 10px;
+    margin-right: 10px;
     height: 350px;
     width: 310px;
     background: white;
@@ -101,6 +122,12 @@
 .lp-news-card-content {
     display: flexbox;
     padding: 0px 16px;
+}
+
+.lp-news-card-img {
+    height: 195px;
+    width: 100%;
+    object-fit: fill;
 }
 
 .lp-card-text-header {
@@ -120,4 +147,117 @@
     justify-content: center;
     text-align: center;
     font-size: 26px;
+}
+/* News cards */
+
+/* "Ad"/interlude banner */
+.lp-interlude-banner {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 400px;
+    width: 100%;
+    background-image: url('/./assets/jbf_snowcouple.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: white;
+}
+
+.lp-interlude-banner-container {
+    width: 600px;
+    margin: 0 auto;
+}
+
+.lp-interlude-banner-card {
+    height: 120px;
+    width: 420px;
+    position: relative;
+    left: -190px;
+    top: 30px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 8px;
+    padding-right: 8px;
+    background: white;
+    border-radius: 10px;
+}
+
+.lp-interlude-banner-card:hover {
+    background: #F7F6F6;
+}
+
+.lp-interlude-banner-img {
+    object-fit: fill;
+}
+/* "Ad"/interlude banner */
+
+.lp-promoted-news-card {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 1000px;
+    height: 350px;
+    background: white;
+}
+
+.lp-promoted-news-card:hover {
+    background: #F7F6F6;
+}
+
+.lp-promoted-news-img {
+    display: inline-block;
+    vertical-align: middle;
+    width: 50%;
+    height: 100%;
+}
+
+.lp-promoted-news-cardtext {
+    text-align: center;
+    padding-top: 50px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.lp-footer {
+    width: 100%;
+    height: 250px;
+    background: #F7F6F6;
+    justify-content: center;
+    align-items: top;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.lp-footer-part {
+    width: 100%;
+    height: 250px;
+    background: #F7F6F6;
+    justify-content: center;
+    align-items: top;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.lp-footer-section {
+    margin-top: 20px;
+    width: 300px;
+    text-align: center;
+}
+
+.lp-footer-secondary {
+    width: 100%;
+    height: 50px;
+    background: #004F59;
+    margin-top: 10px;
+}
+
+.lp-footer-secondary-container {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
